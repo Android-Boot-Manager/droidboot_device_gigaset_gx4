@@ -90,7 +90,7 @@ struct disp_ddp_path_config {
     LCM_ROUND_CORNER round_corner_params;
 };
 
-typedef int (*ddp_module_notify)(enum DISP_MODULE_ENUM, DISP_PATH_EVENT);
+typedef int (*ddp_module_notify)(enum DISP_MODULE_ENUM, enum DISP_PATH_EVENT);
 
 struct DDP_MODULE_DRIVER {
     enum DISP_MODULE_ENUM    module;
