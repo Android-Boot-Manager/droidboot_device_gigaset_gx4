@@ -27,6 +27,7 @@
 #define PRIx32 "x"
 #define PRIi32   "I32i"
 #define PRId32 "d"
+#define PRIX32 "X"
 
 #include <stdint.h>
 
