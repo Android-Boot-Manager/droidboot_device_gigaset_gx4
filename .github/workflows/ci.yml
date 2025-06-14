@@ -21,7 +21,7 @@ jobs:
       uses: actions/cache@v3
       with:
         path: ~/gcc-toolchain
-        key: gcc-toolchain
+        key: gcc-toolchain-dualarch
     - name: Download GCC for Android
       if: steps.cache-gcc.outputs.cache-hit != 'true'
       run: |
