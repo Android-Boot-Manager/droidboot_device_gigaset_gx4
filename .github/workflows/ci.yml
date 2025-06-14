@@ -31,7 +31,7 @@ jobs:
     - name: Build the bootloader
       run: PATH=/home/runner/gcc-toolchain/bin:$PATH bash k6789v1_64-build.sh
     - name : Upload bootloader (unsigned)
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: mimameid_lk-unsigned.img
         path: /home/runner/work/droidboot_device_gigaset_gx4/build-k6789v1_64/lk.img
